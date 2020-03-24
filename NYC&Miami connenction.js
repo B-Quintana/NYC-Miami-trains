@@ -1,4 +1,4 @@
-NYC & Miami connection,
+import React from "react";
  [
   " https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXPqxoR96IjRy5o1O1CUlRE1FlZJCBkLzd_d9bvFfn8qOSRUnI",
    "https://imgs.6sqft.com/wp-content/uploads/2017/10/25113913/L-train.jpg",
