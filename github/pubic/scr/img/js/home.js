@@ -18,12 +18,10 @@ let list = [
   {
     title: 'White Bullter Train',
     link:  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg",
-
-
     description: 'Fast train',
-    imgUrl:  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg",
-
-		
+    imgUrl:  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg"
+  },
+]
 export function Home() {
 	return (
 		<>
