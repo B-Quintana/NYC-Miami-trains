@@ -22,6 +22,24 @@ let list = [
 
     description: 'Fast train',
     imgUrl:  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg",
+               xport function Home() {
+	return (
+		<>
+			<Navbar />
+			<Jumbotron />
+			<Carousel />
+			<Carousel />
+			<Carousel />
+
+			<div className="card-group d-flex justify-content-center">
+				{va.map((item, index) => (
+					<Cards key={index} myimage={item} />
+				))}
+			</div>
+		</>
+	);
+}
+
 
 
 
