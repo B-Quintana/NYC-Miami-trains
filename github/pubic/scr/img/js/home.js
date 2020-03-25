@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./navbar";
 import { Cards } from "./cards";
 import { Jumbotron } from "./jumbotron";
-let list = [
+let va = [
   {
     title: 'NYC Train',
     link:  "https://s.abcnews.com/images/US/subway-1-gty-file-ml-190524_hpMain_4x3_992.jpg",

@@ -1,4 +1,8 @@
-import React from "react";
+import React from "react"; 
+import { Navbar } from "./navbar";
+import { Cards } from "./cards";
+import { Jumbotron } from "./jumbotron";
+ let va=
  [
   " https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXPqxoR96IjRy5o1O1CUlRE1FlZJCBkLzd_d9bvFfn8qOSRUnI",
    "https://imgs.6sqft.com/wp-content/uploads/2017/10/25113913/L-train.jpg",
@@ -7,3 +11,18 @@ import React from "react";
  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg",
  "https://upload.wikimedia.org/wikipedia/commons/7/70/Miami_Metrorail_Hitachi_train_20190117.jpg"
 ];
+
+export function Home() {
+	return (
+		<>
+			<Navbar />
+			<Jumbotron />
+
+			<div className="card-group d-flex justify-content-center">
+				{va.map((item, index) => (
+					<Cards key={index} myimage={item} />
+				))}
+			</div>
+		</>
+	);
+}
