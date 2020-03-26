@@ -28,7 +28,7 @@ export function Home() {
 			<Navbar />
 			<Jumbotron />
 
-			<div className="card-group d-flex justify-content-center">
+			<div className="cards-group d-flex justify-content-center">
 				{va.map((item, index) => (
 					<Cards key={index} myimage={item} />
 				))}
